@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MD_project/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/MD_project/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/MD_project/app/src/main/res/drawable/ic_phonenumber.xml" value="0.2385" />
+        <entry key="..\:/MD_project/app/src/main/res/layout/activity_donor_registration.xml" value="0.264" />
+        <entry key="..\:/MD_project/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/MD_project/app/src/main/res/layout/activity_login2.xml" value="0.1" />
+        <entry key="..\:/MD_project/app/src/main/res/layout/activity_recipient_registration.xml" value="0.264" />
+        <entry key="..\:/MD_project/app/src/main/res/layout/activity_select_registration.xml" value="0.2" />
         <entry key="..\:/MD_project/app/src/main/res/layout/activity_splashscreen.xml" value="0.2" />
         <entry key="..\:/MD_project/app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
       </map>
