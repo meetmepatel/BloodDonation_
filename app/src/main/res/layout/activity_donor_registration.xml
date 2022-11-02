@@ -132,7 +132,7 @@
                     android:id="@+id/RegisterPhoneNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_number"
+                    android:drawableStart="@drawable/ic_phone"
                     android:drawablePadding="10dp"
                     android:hint="Enter Phone number"
                     android:inputType="number"
@@ -184,10 +184,10 @@
                 app:hintTextAppearance="@color/colorPrimary">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/RegisterPassword"
+                    android:id="@+id/registerPassword"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:drawableStart="@drawable/ic_number"
+                    android:drawableStart="@drawable/ic_lock"
                     android:drawablePadding="10dp"
                     android:hint="Enter Phone number"
                     android:inputType="textPassword"
