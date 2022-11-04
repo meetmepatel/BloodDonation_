@@ -29,12 +29,11 @@
 
             <ImageView
 
-                android:layout_width="168dp"
-                android:layout_height="165dp"
+                android:layout_width="164dp"
+                android:layout_height="156dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="0dp"
-                android:src="@drawable/applogo"/>
-
+                android:src="@drawable/applogo" />
 
             <TextView
 
@@ -129,7 +128,7 @@
                 app:hintTextAppearance="@color/colorPrimary">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/RegisterPhoneNumber"
+                    android:id="@+id/registerPhoneNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_phone"
@@ -186,10 +185,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/registerPassword"
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
+                    android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_lock"
                     android:drawablePadding="10dp"
-                    android:hint="Enter Phone number"
+                    android:hint="Enter Password"
                     android:inputType="textPassword"
                     android:textColor="#000"
                     android:textColorHint="#000"
@@ -215,6 +214,7 @@
                 android:layout_marginTop="15dp"
                 android:gravity="center"
                 android:text="Already Registered? Sign In"
+                android:layout_marginBottom="15dp"
                 android:textColor="#000"
                 android:textStyle="bold" />
 
