@@ -60,15 +60,15 @@
                 <item
                     android:id="@+id/profile"
                     android:icon="@drawable/ic_profile"
-                    android:title="A Positive"/>
+                    android:title="Profile"/>
                 <item
                     android:id="@+id/notification"
                     android:icon="@drawable/ic_notifications"
-                    android:title="A negative"/>
+                    android:title="Notification"/>
                 <item
                     android:id="@+id/logout"
                     android:icon="@drawable/ic_logout"
-                    android:title="B positive"/>
+                    android:title="Logout"/>
 
 
             </group>
@@ -81,11 +81,11 @@
                 <item
                     android:id="@+id/about"
                     android:icon="@drawable/ic_about"
-                    android:title="A Positive"/>
+                    android:title="About"/>
                 <item
                     android:id="@+id/share"
                     android:icon="@drawable/ic_share"
-                    android:title="A negative"/>
+                    android:title="Share"/>
 
             </group>
         </menu>
