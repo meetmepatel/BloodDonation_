@@ -41,8 +41,12 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.Viewholder>{
     @Override
     public void onBindViewHolder(@androidx.annotation.NonNull Viewholder holder, int position) {
         final User user = userList.get(position);
-
-        holder.type.setText(user.getType());
+// Email button ka codee he yee
+//        holder.type.setText(user.getType());
+//        if (user.getType().equals("donor")){
+//            holder.emailNow.setVisibility(View.VISIBLE);
+//        }
+        //iske upar tak email ka code he jyada hosiyari me delete mat karna
         holder.userEmail.setText(user.getEmail());
         holder.phoneNumber.setText(user.getPhonenumber());
         holder.userName.setText(user.getName());
