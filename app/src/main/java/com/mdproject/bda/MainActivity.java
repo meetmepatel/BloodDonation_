@@ -37,10 +37,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DatabaseReference userRef;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -108,6 +112,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.profile:
                 Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
+            case R.id.logout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intent1 =new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent1);
+                break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

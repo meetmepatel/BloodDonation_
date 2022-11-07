@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/BloodDonation_/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
+        <entry key="..\:/BloodDonation_/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
         <entry key="..\:/BloodDonation_/app/src/main/res/layout/activity_profile.xml" value="0.23229166666666667" />
         <entry key="..\:/BloodDonation_/app/src/main/res/layout/activity_recipient_registration.xml" value="0.23229166666666667" />
         <entry key="..\:/BloodDonation_/app/src/main/res/layout/header.xml" value="0.12273550724637682" />
         <entry key="..\:/BloodDonation_/app/src/main/res/layout/user_displayed_layout.xml" value="0.1" />
+        <entry key="..\:/BloodDonation_/app/src/main/res/menu/main_menu.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>
