@@ -82,8 +82,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     String type = snapshot.child("type").getValue().toString();
                     nav_type.setText(type);
 
-                    String imageUrl = snapshot.child("profilepictureurl").getValue().toString();
-                    Glide.with(getApplicationContext()).load(imageUrl).into(nav_profile_image);
+                    if (snapshot.hasChild("profilepictureurl")){
+                        String imageUrl = snapshot.child("profilepictureurl").getValue().toString();
+                        Glide.with(getApplicationContext()).load(imageUrl).into(nav_profile_image);
+                    }else{
+                        nav_profile_image.setImageResource(R.drawable.profile_image);
+                    }
+
+
 
                 }
             }
