@@ -153,7 +153,7 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
                                 userInfo.put("phonenumber",phoneNumber);
                                 userInfo.put("bloodgroup",bloodGroup);
                                 userInfo.put("type","recipient");
-                                userInfo.put("search","recipient");
+                                userInfo.put("search","recipient"+bloodGroup);
 
                                 userDatabaseRef.updateChildren(userInfo).addOnCompleteListener(new OnCompleteListener() {
                                     @Override

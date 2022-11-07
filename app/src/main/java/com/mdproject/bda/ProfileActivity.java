@@ -62,7 +62,12 @@ public class ProfileActivity extends AppCompatActivity {
                     bloodGroup.setText(snapshot.child("bloodgroup").getValue().toString());
                     email.setText(snapshot.child("email").getValue().toString());
 
-                    Glide.with(getApplicationContext()).load(snapshot.child("profilepictureurl").getValue().toString()).into(profileImage);
+                    if (snapshot.hasChild("profilepictureurl")){
+                        String imageUrl = snapshot.child("profilepictureurl").getValue().toString();
+                        Glide.with(getApplicationContext()).load(snapshot.child("profilepictureurl").getValue().toString()).into(profileImage);
+                    }else{
+                        profileImage.setImageResource(R.drawable.profile_image);
+                    }
                 }
             }
 
