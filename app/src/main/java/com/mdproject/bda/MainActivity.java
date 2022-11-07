@@ -253,6 +253,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 intent10.putExtra("group","O-");
                 startActivity(intent10);
                 break;
+
+            case R.id.compatible:
+                Intent intent11 = new Intent(MainActivity.this, CategorySelectedActivity.class);
+                intent11.putExtra("group","Compatible With Me");
+                startActivity(intent11);
+                break;
+
             case R.id.profile:
                 Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
