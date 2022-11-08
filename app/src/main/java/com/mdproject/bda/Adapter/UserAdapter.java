@@ -47,6 +47,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.Viewholder>{
 //            holder.emailNow.setVisibility(View.VISIBLE);
 //        }
         //iske upar tak email ka code he jyada hosiyari me delete mat karna
+        holder.type.setText(user.getType());
         holder.userEmail.setText(user.getEmail());
         holder.phoneNumber.setText(user.getPhonenumber());
         holder.userName.setText(user.getName());
